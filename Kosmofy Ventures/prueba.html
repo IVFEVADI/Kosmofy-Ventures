@@ -1,0 +1,209 @@
+<!--<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Calendario</title>
+</head>
+<body>
+    <div class="calendar-container">
+        <div id="calendar"></div>
+        <button id="dateButton" class="hidden">Haz clic aquí</button>
+    </div>
+
+ //Formulario oculto// 
+    <form id="dateForm" action="formulario.html" method="get">
+        <input type="hidden" name="selectedDate" id="selectedDate">
+    </form>
+
+    <script src="calendar.js"></script>
+</body>
+</html>-->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda en Línea</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+        }
+
+        .navbar {
+            background-color: #333;
+            color: #fff;
+        }
+
+        .navbar a {
+            color: #fff;
+        }
+
+        .container {
+            margin-top: 20px;
+        }
+
+        .carousel-item img {
+            max-width: 50%;
+            height: auto;
+        }
+
+        .carousel-caption {
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 10px;
+            color: #fff;
+        }
+
+        .producto {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 15px;
+            margin: 15px;
+            text-align: center;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s;
+        }
+
+        .producto:hover {
+            transform: translateY(-5px);
+        }
+
+        .producto img {
+            max-width: 50%;
+            height: auto;
+        }
+
+        .footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-brand" href="#">Tienda en Línea</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Categorías</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Carrito</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container">
+        <h2 class="text-center">Bienvenido a nuestra Tienda en Línea</h2>
+
+        <!-- Carrusel de productos -->
+
+        <h2 class="text-center mt-5">Otros Productos</h2>
+        <div id="miCarrusel1" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="producto">
+                            <img src="nn.ico" alt="Producto 1">
+                            <h3>Producto 1</h3>
+                            <p>Descripción del Producto 1.</p>
+                            <p>Precio: $45.00</p>
+                            <button class="btn btn-primary">Comprar</button>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="producto">
+                            <img src="nn.ico" alt="Producto 2">
+                            <h3>Producto 2</h3>
+                            <p>Descripción del Producto 2.</p>
+                            <p>Precio: $55.00</p>
+                            <button class="btn btn-primary">Comprar</button>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="producto">
+                            <img src="nn.ico" alt="Producto 3">
+                            <h3>Producto 3</h3>
+                            <p>Descripción del Producto 3.</p>
+                            <p>Precio: $70.00</p>
+                            <button class="btn btn-primary">Comprar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="producto">
+                            <img src="nn.ico" alt="Producto 4">
+                            <h3>Producto 4</h3>
+                            <p>Descripción del Producto 4.</p>
+                            <p>Precio: $45.00</p>
+                            <button class="btn btn-primary">Comprar</button>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="producto">
+                            <img src="nn.ico" alt="Producto 5">
+                            <h3>Producto 5</h3>
+                            <p>Descripción del Producto 5.</p>
+                            <p>Precio: $55.00</p>
+                            <button class="btn btn-primary">Comprar</button>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="producto">
+                            <img src="nn.ico" alt="Producto 6">
+                            <h3>Producto 6</h3>
+                            <p>Descripción del Producto 6.</p>
+                            <p>Precio: $70.00</p>
+                            <button class="btn btn-primary">Comprar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Puedes agregar más elementos .carousel-item según sea necesario -->
+        </div>
+        <a class="carousel-control-prev" href="#miCarrusel1" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#miCarrusel1" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+
+
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2023 Tienda en Línea</p>
+        </div>
+    </footer>
+
+    <!-- Scripts de Bootstrap y jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

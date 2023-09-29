@@ -1,0 +1,151 @@
+/* Estilos para el calendario */
+/*body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.calendar-container {
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+#calendar {
+    font-family: Arial, sans-serif;
+    width: 300px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: center;
+}
+
+table th {
+    background-color: #333;
+    color: #fff;
+}
+
+table td:hover {
+    background-color: #f2f2f2;
+}
+
+h2 {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    margin: 0;
+}
+
+/* Estilos para el botón */
+/*.hidden {
+    display: none;
+}
+
+#dateButton {
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+/*#dateButton:hover {
+    background-color: #555;
+}*/
+
+
+
+body {
+font-family: Arial, sans-serif;
+            background-color: #DEE3ED;
+            background-image: url('fondof.png'); /* Agrega la URL de tu imagen de fondo */
+            background-size: cover; /* Para asegurarte de que la imagen de fondo cubra todo el cuerpo */
+            background-repeat: no-repeat; /* Evita que la imagen de fondo se repita */
+            background-attachment: fixed; /* Fija la imagen de fondo para que no se desplace con el contenido */
+            background-position: center center; /* Centra la imagen de fondo */
+        }
+        .container img{
+            max-width: 10%;
+            height: auto;
+        }
+        .navbar {
+            background-color: rgba(0,0,0);
+            height: 10%;
+            color: #fff;
+        }
+
+        .navbar a {
+            color: #fff;
+            font-size: 25px;
+        }
+        .navbar-brand{
+            font-family: 'Cinzel', serif;
+            font-family: 'Great Vibes', cursive;
+
+
+        }
+
+        .container {
+            color: #ffff;
+            margin-top: 20px;
+
+        }
+
+        .carousel-item img {
+            max-width: 30%;
+            height: auto;
+        }
+        .carousel-inner button{
+            background-color: black;
+            border: black;
+        }
+
+        .carousel-caption {
+            background-color: rgba(0,0,255,0.6);
+            padding: 10px;
+            color: #fff;
+        }
+
+        .producto {
+            background-color: #C8A2C8;
+            border: 1px solid #B2D1D1;
+            border-radius: 5px;
+            padding: 15px;
+            margin: 15px;
+            text-align: center;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s;
+        }
+
+        .producto:hover {
+            transform: translateY(-5px);
+        }
+
+        .producto img {
+            max-width: 50%;
+            height: auto;
+        }
+
+        .footer {
+            background-color: rgba(0,0,0);
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
